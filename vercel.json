@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/subject/:id",
+      "destination": "/subject.html"
+    }
+  ]
+}
