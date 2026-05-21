@@ -4,8 +4,8 @@
   "private": true,
   "description": "The Eye website",
   "scripts": {
-    "start": "node server.js",
-    "dev": "node server.js"
+    "start": "node dev-server.js",
+    "dev": "node dev-server.js"
   },
   "devDependencies": {
     "express": "^5.1.0"
