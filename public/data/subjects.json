@@ -6,8 +6,8 @@
       "observedAt": "2026-05-14T15:32:00",
       "location": "TEDU D Block Basement",
       "mood": "Calm · Attentive",
-      "whyCreated": "The Eye interpreted the moment you paused during your passage. The deep navy and grey tones in your clothing, read together with a calm and attentive posture, were translated into text and then into this vector identity. Nothing photographic was kept. Only this written interpretation.",
-      "avatar": ""
+      "avatar": "/avatars/3.png",
+      "story": "/avatars/story3.png"
     },
     {
       "id": "0123",
@@ -15,8 +15,8 @@
       "observedAt": "2026-05-15T11:08:00",
       "location": "TEDU D Block Basement",
       "mood": "Energetic · Curious",
-      "whyCreated": "Your vivid colours shifted The Eye's iris tones in real time. The orange and white combination was described in text as a curious, dynamic profile and rendered as this avatar. No image of you was stored. Only the textual reading of what was visible.",
-      "avatar": ""
+      "avatar": "/avatars/2.png",
+      "story": "/avatars/story2.png"
     },
     {
       "id": "0089",
@@ -24,8 +24,8 @@
       "observedAt": "2026-05-15T16:45:00",
       "location": "TEDU D Block Basement",
       "mood": "Neutral · Fleeting",
-      "whyCreated": "Even from a distance, The Eye noted your presence. Pastel green and beige tones were written into a soft, transient description and converted into this avatar. The observation was momentary. No visual record was saved.",
-      "avatar": ""
+      "avatar": "/avatars/4.png",
+      "story": "/avatars/story4.png"
     },
     {
       "id": "0201",
@@ -33,8 +33,17 @@
       "observedAt": "2026-05-16T09:22:00",
       "location": "TEDU D Block Basement",
       "mood": "Determined · Monochrome",
-      "whyCreated": "Your all black-and-white outfit was described in text as the profile closest to The Eye's own visual language. That written interpretation became this avatar, a mirror between observer and observed, built without storing any photograph.",
-      "avatar": ""
+      "avatar": "/avatars/1.png",
+      "story": "/avatars/story1.png"
+    },
+    {
+      "id": "0156",
+      "label": "Subject #0156",
+      "observedAt": "2026-05-15T11:08:00",
+      "location": "TEDU D Block Basement",
+      "mood": "Neutral · Contrast",
+      "avatar": "/avatars/5.png",
+      "story": "/avatars/story5.png"
     }
   ],
   "event": {

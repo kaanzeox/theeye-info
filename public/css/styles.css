@@ -521,9 +521,13 @@ section {
 }
 
 .subject-card-preview .avatar-slot {
-  width: 70%;
+  width: 85%;
   border: none;
   background: transparent;
+}
+
+.subject-card-preview .avatar-img {
+  object-fit: contain;
 }
 
 .subject-card-body {
@@ -664,6 +668,41 @@ section {
   letter-spacing: 0.2em;
   color: var(--text-dim);
   margin-bottom: 2.5rem;
+}
+
+.story-block {
+  margin-bottom: 2.5rem;
+}
+
+.story-block h2 {
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.25em;
+  text-transform: uppercase;
+  color: var(--text-dim);
+  margin: 0 0 0.5rem;
+}
+
+.story-block-desc {
+  margin: 0 0 1.25rem;
+  font-size: 0.88rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.story-preview {
+  max-width: 280px;
+  border: 1px solid var(--surface-border);
+  border-radius: 12px;
+  overflow: hidden;
+  background: var(--bg-elevated);
+  margin-bottom: 1.25rem;
+}
+
+.story-preview img {
+  display: block;
+  width: 100%;
+  height: auto;
 }
 
 .why-block {

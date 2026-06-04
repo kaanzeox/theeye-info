@@ -1,7 +1,7 @@
 import { getAllSubjects } from "./data.js";
 import { buildAvatarSlot } from "./avatar.js";
 
-const subjects = await getAllSubjects();
+const subjects = (await getAllSubjects()).sort((a, b) => a.id.localeCompare(b.id));
 const container = document.getElementById("subjectsGrid");
 
 container.innerHTML = subjects

@@ -1,5 +1,5 @@
 import { getSubject } from "./data.js";
-import { buildAvatarSlot, formatDate } from "./avatar.js";
+import { buildAvatarSlot, buildStoryBlock, formatDate } from "./avatar.js";
 
 const pathMatch = window.location.pathname.match(/\/subject\/([^/]+)/);
 const params = new URLSearchParams(window.location.search);
@@ -46,10 +46,7 @@ if (!id) {
           <h1>${subject.label}</h1>
           <p class="subject-subtitle">${subject.mood} · Interpreted by The Eye</p>
 
-          <div class="why-block">
-            <h2>Why did we create that?</h2>
-            <p>${subject.whyCreated}</p>
-          </div>
+          ${buildStoryBlock(subject.id, subject.story)}
 
           <p class="subject-note">
             Your appearance was not photographed or stored. The Eye translated what was
