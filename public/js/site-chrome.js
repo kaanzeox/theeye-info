@@ -1,6 +1,9 @@
+const LOGO_SRC = "/logo.png";
+const LOGO_ALT = "The Eye";
+
 const NAV = [
-  { href: "/", label: "Home", id: "home" },
-  { href: "/subjects.html", label: "Avatars", id: "avatars" },
+  { href: "/", label: "HOME", id: "home" },
+  { href: "/subjects.html", label: "AVATARS", id: "avatars" },
   { href: "/ethics.html", label: "KVKK", id: "kvkk" },
 ];
 
@@ -16,7 +19,9 @@ function renderHeader(active) {
   if (!el) return;
   el.innerHTML = `
     <div class="container header-inner">
-      <a class="brand" href="/"><span class="brand-text">The Eye</span></a>
+      <a class="brand" href="/">
+        <img class="brand-logo" src="${LOGO_SRC}" alt="${LOGO_ALT}" width="120" height="32" />
+      </a>
       <nav class="site-nav" aria-label="Main">${navHtml(active)}</nav>
     </div>
   `;
@@ -27,7 +32,9 @@ function renderFooter() {
   if (!el) return;
   el.innerHTML = `
     <div class="container footer-inner">
-      <span class="footer-brand">The Eye</span>
+      <a class="footer-brand" href="/">
+        <img class="footer-logo" src="${LOGO_SRC}" alt="${LOGO_ALT}" width="100" height="28" />
+      </a>
       <nav class="footer-nav" aria-label="Footer">
         ${NAV.map((item) => `<a href="${item.href}">${item.label}</a>`).join("")}
       </nav>

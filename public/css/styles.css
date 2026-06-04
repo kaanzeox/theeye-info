@@ -114,10 +114,10 @@ svg {
   flex-shrink: 0;
 }
 
-.brand-text {
-  font-size: 0.8rem;
-  font-weight: 500;
-  letter-spacing: 0.12em;
+.brand-logo {
+  display: block;
+  height: 1.75rem;
+  width: auto;
 }
 
 .site-nav {
@@ -127,8 +127,9 @@ svg {
 }
 
 .site-nav a {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
   font-weight: 500;
+  letter-spacing: 0.1em;
   color: var(--text-muted);
   padding: 0.5rem 0.9rem;
   border-radius: var(--radius);
@@ -611,9 +612,20 @@ section {
 }
 
 .footer-brand {
-  font-size: 0.8rem;
-  letter-spacing: 0.1em;
-  color: var(--text-dim);
+  display: flex;
+  align-items: center;
+  opacity: 0.9;
+  transition: opacity 180ms ease;
+}
+
+.footer-brand:hover {
+  opacity: 1;
+}
+
+.footer-logo {
+  display: block;
+  height: 1.5rem;
+  width: auto;
 }
 
 .footer-nav {
@@ -623,7 +635,8 @@ section {
 }
 
 .footer-nav a {
-  font-size: 0.85rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.1em;
   color: var(--text-muted);
   padding: 0.45rem 0.75rem;
   border-radius: var(--radius);
@@ -714,11 +727,9 @@ section {
 }
 
 .story-block h2 {
-  font-size: 0.72rem;
-  font-weight: 600;
-  letter-spacing: 0.25em;
-  text-transform: uppercase;
-  color: var(--text-dim);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text);
   margin: 0 0 0.5rem;
 }
 
