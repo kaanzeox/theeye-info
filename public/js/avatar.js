@@ -7,12 +7,11 @@ export function buildStoryBlock(id, storyPath) {
   const fileName = `the-eye-story-${id}.png`;
   return `
     <div class="story-block">
-      <h2>Story image</h2>
-      <p class="story-block-desc">For Instagram or other social posts.</p>
+      <h2>Social Media Image</h2>
       <div class="story-preview">
         <img src="${storyPath}" alt="The Eye story for Subject #${id}" loading="lazy" />
       </div>
-      <a class="btn btn-primary" href="${storyPath}" download="${fileName}">Download story</a>
+      <a class="btn btn-primary" href="${storyPath}" download="${fileName}">Download Image</a>
     </div>
   `;
 }
