@@ -4,6 +4,23 @@
   "installCommand": "",
   "buildCommand": "",
   "outputDirectory": "public",
+  "redirects": [
+    {
+      "source": "/techvid",
+      "destination": "https://drive.google.com/file/d/1V-ri09YNvxm8E05PpzD2ovfP_89gYeHp/view?usp=drive_link",
+      "permanent": false
+    },
+    {
+      "source": "/mockupvid",
+      "destination": "https://drive.google.com/file/d/1GlI5VmEvL9yc8LUWYeyeaCVUeFM1q5dq/view?usp=sharing",
+      "permanent": false
+    },
+    {
+      "source": "/video",
+      "destination": "https://drive.google.com/file/d/1eVM2RFplAu-gDe1Laeg3VhegaA0udYoq/view?usp=sharing",
+      "permanent": false
+    }
+  ],
   "rewrites": [
     {
       "source": "/subject/:id",
