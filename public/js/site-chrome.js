@@ -32,9 +32,6 @@ function renderFooter() {
   if (!el) return;
   el.innerHTML = `
     <div class="container footer-inner">
-      <a class="footer-brand" href="/">
-        <img class="footer-logo" src="${LOGO_SRC}" alt="${LOGO_ALT}" />
-      </a>
       <nav class="footer-nav" aria-label="Footer">
         ${NAV.map((item) => `<a href="${item.href}">${item.label}</a>`).join("")}
       </nav>

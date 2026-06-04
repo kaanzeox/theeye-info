@@ -607,27 +607,8 @@ section {
 .footer-inner {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   gap: 1rem;
-  flex-wrap: wrap;
-}
-
-.footer-brand {
-  display: flex;
-  align-items: center;
-  opacity: 0.9;
-  transition: opacity 180ms ease;
-}
-
-.footer-brand:hover {
-  opacity: 1;
-}
-
-.footer-logo {
-  display: block;
-  height: 2.75rem;
-  width: auto;
-  max-width: 220px;
 }
 
 .footer-nav {
