@@ -16,7 +16,7 @@
   --mono: "JetBrains Mono", ui-monospace, monospace;
   --radius: 10px;
   --radius-lg: 14px;
-  --header-h: 4.25rem;
+  --header-h: 6rem;
 }
 
 *,
@@ -116,8 +116,9 @@ svg {
 
 .brand-logo {
   display: block;
-  height: 1.75rem;
+  height: 3.75rem;
   width: auto;
+  max-width: min(280px, 55vw);
 }
 
 .site-nav {
@@ -624,8 +625,9 @@ section {
 
 .footer-logo {
   display: block;
-  height: 1.5rem;
+  height: 2.75rem;
   width: auto;
+  max-width: 220px;
 }
 
 .footer-nav {

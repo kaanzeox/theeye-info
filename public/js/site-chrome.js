@@ -20,7 +20,7 @@ function renderHeader(active) {
   el.innerHTML = `
     <div class="container header-inner">
       <a class="brand" href="/">
-        <img class="brand-logo" src="${LOGO_SRC}" alt="${LOGO_ALT}" width="120" height="32" />
+        <img class="brand-logo" src="${LOGO_SRC}" alt="${LOGO_ALT}" />
       </a>
       <nav class="site-nav" aria-label="Main">${navHtml(active)}</nav>
     </div>
@@ -33,7 +33,7 @@ function renderFooter() {
   el.innerHTML = `
     <div class="container footer-inner">
       <a class="footer-brand" href="/">
-        <img class="footer-logo" src="${LOGO_SRC}" alt="${LOGO_ALT}" width="100" height="28" />
+        <img class="footer-logo" src="${LOGO_SRC}" alt="${LOGO_ALT}" />
       </a>
       <nav class="footer-nav" aria-label="Footer">
         ${NAV.map((item) => `<a href="${item.href}">${item.label}</a>`).join("")}
