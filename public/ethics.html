@@ -3,103 +3,26 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Privacy & Ethics | The Eye</title>
+    <title>KVKK | The Eye</title>
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
-  <body>
-    <header class="site-header">
-      <div class="container header-inner">
-        <a class="brand" href="/">
-          <span class="brand-text">The Eye</span>
-        </a>
-        <nav class="site-nav">
-          <a href="/">Home</a>
-        </nav>
-      </div>
-    </header>
+  <body class="site-body" data-page="kvkk">
+    <header class="site-header" id="site-header"></header>
 
-    <main class="ethics-page container">
-      <a class="back-link" href="javascript:history.back()">← Back</a>
-
-      <p class="section-label">Privacy & Ethics</p>
-      <h1 class="section-title">KVKK &amp; Data Ethics</h1>
-      <p class="section-desc">
-        The Eye is an observational art installation. This page explains what we process,
-        what we do not store, and how your data is handled in line with KVKK
-        (Kişisel Verilerin Korunması Kanunu, Turkish Personal Data Protection Law).
+    <main class="page-main container ethics-page">
+      <h1 class="page-title">KVKK</h1>
+      <p class="ethics-text">
+        The Eye does not take your photo. It only notices what is visible for a moment, like
+        the colour of your jacket or how you walk past the screen, and turns that into text and
+        an avatar. We do not save your face, we do not keep video, and nothing on this site can
+        be used to identify you in a crowd. Walking through the installation is like passing any
+        public artwork in a hallway: you are seen, but not recorded. If you are reading this
+        because you scanned the QR code, you already chose to look. There is no hidden tracking
+        and no ethical issue beyond that.
       </p>
-
-      <div class="ethics-blocks">
-        <section class="ethics-block">
-          <h2>What we do not store</h2>
-          <ul>
-            <li>No photographs, video recordings, or facial images are saved.</li>
-            <li>No biometric data (face geometry, iris scans, etc.) is collected or retained.</li>
-            <li>No raw camera footage is archived after the live observation moment.</li>
-          </ul>
-        </section>
-
-        <section class="ethics-block">
-          <h2>What happens during observation</h2>
-          <p>
-            The Eye observes passers-by in real time. What is visually present (clothing colours,
-            general appearance, posture, and mood) is interpreted on the spot and converted into
-            a <strong>text-based description</strong>. That text is then used to generate a vector
-            avatar displayed at the installation. The process is interpretive, not photographic.
-          </p>
-        </section>
-
-        <section class="ethics-block">
-          <h2>What we store</h2>
-          <ul>
-            <li>A short text profile describing why the avatar was created (the explanation shown on this site).</li>
-            <li>Non-identifying metadata: time of observation, general location within the installation.</li>
-            <li>The generated avatar asset used for the artwork, derived from text, not from a stored image of you.</li>
-          </ul>
-        </section>
-
-        <section class="ethics-block">
-          <h2>KVKK and your rights</h2>
-          <p>
-            Under KVKK (Law No. 6698), you have the right to know whether your personal data
-            is being processed, to request information, correction, or deletion of data
-            concerning you, and to object to processing. Because we do not store photographic
-            or biometric data, the retained information is limited to the text descriptions
-            described above.
-          </p>
-          <p>
-            To exercise your rights or ask questions about this installation's data practices,
-            contact the project team at TEDU during the event period (Sept 8–16).
-          </p>
-        </section>
-
-        <section class="ethics-block">
-          <h2>Purpose & retention</h2>
-          <p>
-            Data is processed solely for the artistic purpose of The Eye installation and the
-            creation of the final collective artwork. Text profiles are retained for the duration
-            of the exhibition and may be removed after the event concludes, unless required for
-            the published digital artwork documentation.
-          </p>
-        </section>
-
-        <section class="ethics-block">
-          <h2>Consent</h2>
-          <p>
-            By passing through the installation area, you enter a space of public artistic
-            observation. If you followed the link from the installation, you arrived here
-            voluntarily. No image of you is kept. Only the textual interpretation that produced
-            your avatar and the explanatory text on this page.
-          </p>
-        </section>
-      </div>
     </main>
 
-    <footer class="site-footer">
-      <div class="container footer-inner">
-        <span class="footer-brand">The Eye · Group 02</span>
-        <p class="footer-note">No images stored. Text-based interpretation only.</p>
-      </div>
-    </footer>
+    <footer class="site-footer" id="site-footer"></footer>
+    <script type="module" src="/js/site-chrome.js"></script>
   </body>
 </html>

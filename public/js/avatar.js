@@ -7,8 +7,8 @@ export function buildStoryBlock(id, storyPath) {
   const fileName = `the-eye-story-${id}.png`;
   return `
     <div class="story-block">
-      <h2>Story</h2>
-      <p class="story-block-desc">Share your observed avatar on social media.</p>
+      <h2>Story image</h2>
+      <p class="story-block-desc">For Instagram or other social posts.</p>
       <div class="story-preview">
         <img src="${storyPath}" alt="The Eye story for Subject #${id}" loading="lazy" />
       </div>

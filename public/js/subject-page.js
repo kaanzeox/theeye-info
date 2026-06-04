@@ -55,7 +55,7 @@ if (!id) {
 
           <div class="subject-ethics-cta">
             <a class="btn" href="/#faq">FAQ</a>
-            <a class="btn" href="/ethics.html">Privacy &amp; Ethics</a>
+            <a class="btn" href="/ethics.html">KVKK</a>
           </div>
         </article>
       </div>

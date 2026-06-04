@@ -10,11 +10,11 @@
     <title>The Eye</title>
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
-  <body>
-    <main class="home-minimal">
-      <div class="home-minimal-inner">
-        <p class="home-minimal-brand">The Eye</p>
+  <body class="site-body" data-page="home">
+    <header class="site-header" id="site-header"></header>
 
+    <main class="page-main home-minimal">
+      <div class="home-minimal-inner">
         <h1 class="home-minimal-title">Why did we create that?</h1>
 
         <div class="home-minimal-text">
@@ -38,7 +38,6 @@
 
         <section class="faq" id="faq" aria-labelledby="faq-heading">
           <h2 class="faq-heading" id="faq-heading">FAQ</h2>
-          <p class="faq-intro">Common questions for visitors who are new to the project.</p>
 
           <div class="faq-list">
             <details class="faq-item">
@@ -57,8 +56,7 @@
               <p>
                 Your avatar is The Eye's artistic interpretation of what it saw when you were
                 nearby. It is not a portrait and not a copy of your face. It is a vector character
-                built from a text reading of your visible style. The explanation on your personal
-                page describes how The Eye interpreted that moment.
+                built from a text reading of your visible style.
               </p>
             </details>
 
@@ -66,8 +64,7 @@
               <summary>What is the grand artwork?</summary>
               <p>
                 The grand artwork is the final piece of the project. Every avatar created during
-                the exhibition is merged into one large digital composition. It represents the
-                collective presence of all visitors who passed The Eye. On the last day of the
+                the exhibition is merged into one large digital composition. On the last day of the
                 event, a high-resolution version will be available to download from this website.
               </p>
             </details>
@@ -77,27 +74,23 @@
               <p>
                 No. The Eye does not save photographs, video, or facial images. It only keeps a
                 text description of what was visible and the avatar generated from that text.
-                For full details on data handling, see the KVKK page.
+                See the <a href="/ethics.html">KVKK</a> page for more.
               </p>
             </details>
 
             <details class="faq-item">
               <summary>Can I share my avatar on social media?</summary>
               <p>
-                Yes. Your avatar is part of a public art project and you can share it on Instagram,
-                X, or anywhere else. If you want, link back to this site or mention The Eye. Please
-                do not present it as a photo or likeness of yourself. It is a generated artwork,
-                not a selfie.
+                Yes. Your avatar is part of a public art project and you can share it anywhere you
+                like. It is a generated artwork, not a selfie.
               </p>
             </details>
 
             <details class="faq-item">
               <summary>How does the process work?</summary>
               <p>
-                The project follows three steps: <strong>Observe</strong> (The Eye reads what is
-                visible in the moment), <strong>Recreate</strong> (that reading becomes text, then
-                a vector avatar), and <strong>Merge</strong> (all avatars combine into the grand
-                artwork on the final day). Nothing is photographed along the way.
+                The Eye reads what is visible, turns it into text, then into an avatar. On the
+                final day all avatars merge into the grand artwork. Nothing is photographed.
               </p>
             </details>
 
@@ -105,19 +98,15 @@
               <summary>When and where can I visit?</summary>
               <p>
                 The installation runs <span id="eventDates">Sept 8–16</span> at
-                <span id="eventLocation">TEDU D Block Basement</span>. You can walk through the
-                space during opening hours and see your avatar appear live on the screen. On the
-                final day, the completed grand artwork will be shown at the same location.
+                <span id="eventLocation">TEDU D Block Basement</span>.
               </p>
             </details>
 
             <details class="faq-item">
               <summary>What happens on the final day?</summary>
               <p>
-                The exhibition closes with the reveal of the grand artwork. The merged digital
-                piece will be displayed at the installation and published here for download. We
-                invite everyone who contributed an avatar to visit in person and see the physical
-                result of the project.
+                The merged digital piece will be shown at the installation and published here for
+                download. You are welcome to visit in person.
               </p>
             </details>
           </div>
@@ -130,6 +119,8 @@
       </div>
     </main>
 
+    <footer class="site-footer" id="site-footer"></footer>
+    <script type="module" src="/js/site-chrome.js"></script>
     <script type="module" src="/js/index.js"></script>
   </body>
 </html>
